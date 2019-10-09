@@ -11,10 +11,12 @@ var port = process.env.PORT || 1338;
 app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res){
   console.log('> GET REQUEST!');
+
   res.sendFile(__dirname + "/public/index.html");
 });
 
 const server = app.listen(port, function(){
+  console.log(process.version);
   console.log(`Express running → PORT ${server.address().port}`);
 });
 
