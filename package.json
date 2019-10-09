@@ -1,0 +1,15 @@
+{
+  "name": "metabolic-coup",
+  "version": "0.0.1",
+  "description": "Simple testing node server for a coup analytics application",
+  "main": "app.js",
+  "author": "Ber",
+  "license": "MIT",
+  "scripts": {
+    "start": "node your-script.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": ">=2.68.0"
+  }
+}
