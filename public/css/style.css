@@ -2,20 +2,36 @@ html,body{
   margin: 0;
 }
 
-header{
+header, footer{
   width: 100%;
-  height: 200px;
-  line-height: 200px;
+  height: 20vh;
+  line-height: 20vh;
   text-align: center;
   background-color: #111111;
   color: white;
 }
 
-#main{
-  widht: 100%;
-  height: 400px;
-  line-height: 400px;
+#player, #action, #target, #contest, #reaction, #counter-contest{
+  width: 100%;
+  height: 10vh;
   text-align: center;
-  font-family: 'Roboto';
-  color: #11111;
+}
+
+.gray{
+  background-color: #ccc
+}
+
+section ul{
+  padding-top: 1.5vh;
+  list-style: none;
+}
+section ul li{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 100%;
+  background-color: green;
+  display: inline-block;
+  margin: 0 10vh;
+  line-height: 7vh;
+  color: white;
 }
