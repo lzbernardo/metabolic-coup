@@ -5,6 +5,7 @@ html,body{
 
 body{
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   background-image: url("../images/couplogo.png");
   background-position: 50% 50%;
   background-size: 80%;
+  background-repeat: no-repeat;
     -webkit-filter: invert(100%);
     filter: invert(100%);
   color: white;
