@@ -69,12 +69,23 @@ section ul{
   table-layout: fixed
 }
 
+#action {
+  height: 20vh;
+}
+#action .selection-wrapper{
+  height: 18vh;
+}
+
 #action ul{
   display: table-row;
 }
 
 #action ul li{
   display: table-cell;
+  line-height: 9vh;
+  font-size: 13px;
+  font-weight: bolder;
+  color: rgba(0,0,0,0.6);
 }
 
 #player ul li, #target ul li{
@@ -97,9 +108,9 @@ section ul{
 
 #coin { background-color: #01FF70 }
 #foreignaid { background-color: #2ECC40 }
-#embezzle { background-color: #FF4136 }
+#embezzle { background-color: #FF851B }
 #tax { background-color: #B10DC9 }
 #steal { background-color: #0074D9 }
-#assassin { background-color: #001f3f }
+#assassin { background-color: #363d44; color: rgba(255,255,255,0.8) !important; }
 #viewcard { background-color: #FFDC00 }
-#changeteams { background-color: #111111 }
+#changeteams {  background-color: #FF4136; }
