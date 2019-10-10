@@ -23,6 +23,19 @@ header {
   color: white;
 }
 
+section{
+  width: 100%;
+  height: 12vh;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*.selection-wrapper{
+  background-color: rgba(0,0,0,0.08);
+  border-radius: 4px;
+}*/
+
 footer{
   width: 100%;
   height: 12%;
@@ -32,23 +45,21 @@ footer{
   color: white;
 }
 
-#player, #action, #target, #contest, #reaction, #counter-contest{
-  width: 100%;
-  height: 12%;
-  text-align: center;
+.gray{
 }
 
-.gray{
-  background-color: #ddd;
+.selection-wrapper{
+  height: 10vh;
+  margin: 2vh 2vh 0;
+  background-color: rgba(0,0,0,0.06);
+  border-radius: 6px;
 }
 
 section ul{
   list-style: none;
-  height: 100%;
-  margin-bottom: 0;
-  padding-top: 2.5vh;
-  padding-left: 0;
+  padding: 1.5vh;
 }
+
 section ul li{
   display: inline-block;
   height: 7vh;
@@ -60,6 +71,8 @@ section ul li{
   border: 1px solid;
   border-radius: 100%;
   border-color: #0074D9;
-  margin: 0 1%;
+  margin: 0 0.5%;
   color: #0074D9;
+  font-size: 9px;
+  font-weight: bold;
 }
